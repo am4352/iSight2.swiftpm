@@ -72,7 +72,7 @@ struct MyopiaView: View {
                     }
                     .navigationDestination(isPresented: $showMyopiaEffect){
                         if #available(iOS 17.0, *) {
-                            MyopicEffectView()
+                            //MyopicEffectView()
                         } else {
                             // Fallback on earlier versions
                         }

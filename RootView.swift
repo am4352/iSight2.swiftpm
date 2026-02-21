@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 struct RootView: View {
@@ -20,7 +19,7 @@ struct RootView: View {
             }
 
             NavigationStack {
-               GuideHomeView()
+                GuideHomeView()
             }
             .tabItem {
                 Label("Guidance", systemImage: "person.2.fill")
@@ -28,8 +27,6 @@ struct RootView: View {
         }
     }
 }
-
-
 
 #Preview {
     RootView()

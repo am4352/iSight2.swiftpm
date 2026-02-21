@@ -70,7 +70,7 @@ struct GlucomaView1: View {
                     }
                 }
                 .navigationDestination(isPresented: $glucomaEffect){
-                    GlucomaEffectView()
+                   // GlucomaEffectView()
                 }
                 .padding()
             }
